@@ -9,7 +9,7 @@
 		(date "2026-09-20")
 	)
 	(lib_symbols)
-	(bus
+	(wire
 		(pts
 			(xy 129.54 71.12) (xy 153.67 71.12)
 		)
@@ -18,20 +18,9 @@
 			(type default)
 			(color 0 0 0 1)
 		)
-		(uuid "50333769-0a97-47f6-994a-4c00915fefdd")
+		(uuid "24158b79-8193-441c-9026-e6a1876a809e")
 	)
-	(bus
-		(pts
-			(xy 129.54 93.98) (xy 153.67 93.98)
-		)
-		(stroke
-			(width 0.508)
-			(type default)
-			(color 0 0 0 1)
-		)
-		(uuid "5843befe-110c-4bfb-b472-cf75bc455a95")
-	)
-	(bus
+	(wire
 		(pts
 			(xy 129.54 77.47) (xy 153.67 77.47)
 		)
@@ -40,9 +29,20 @@
 			(type default)
 			(color 0 0 0 1)
 		)
-		(uuid "636e82a8-2474-4891-b9fc-2dda703fe2b8")
+		(uuid "a9fc080b-1b78-4b4a-aeda-144628c084e2")
 	)
-	(bus
+	(wire
+		(pts
+			(xy 129.54 93.98) (xy 153.67 93.98)
+		)
+		(stroke
+			(width 0.508)
+			(type default)
+			(color 0 0 0 1)
+		)
+		(uuid "ec06c34c-0e32-4b8a-ad39-14ba0408d9ec")
+	)
+	(wire
 		(pts
 			(xy 129.54 85.09) (xy 153.67 85.09)
 		)
@@ -51,7 +51,7 @@
 			(type default)
 			(color 0 0 0 1)
 		)
-		(uuid "cca0d41d-79f7-40a3-8e11-05832e9a6928")
+		(uuid "fd5574fe-da24-4ef6-9774-3d655a1388ff")
 	)
 	(sheet
 		(at 153.67 54.61)
@@ -89,6 +89,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.1588)
 				)
 				(justify left top)
 			)
@@ -177,6 +178,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.1588)
 				)
 				(justify left top)
 			)
