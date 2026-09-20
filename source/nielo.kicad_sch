@@ -170,7 +170,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "usb&power.kicad_sch"
+		(property "Sheetfile" "usbpowerios.kicad_sch"
 			(at 53.34 112.3954 0)
 			(show_name no)
 			(do_not_autoplace no)
