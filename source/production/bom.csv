@@ -2,7 +2,7 @@
 "C3,C4,C6,C7","4","TBD","TBD Capacitor Ceramic 0402","TBD","","",""
 "C18","1","10u 50V","10u 25V Capacitor Ceramic 0805","KGM21FS61E106KU","581-KGM21FS61E106KU ","478-KGM21FS61E106KUTR-ND",""
 "HS1","1","SC1752","Heat Sink Raspberry Pi 5 Aluminum Top Mount","SC1752","358-SC1752","2648-SC1752-ND",""
-"U2","1","SC1556","Raspberry Compute Module 5, 2GB RAM, Lite, Non Wireless","SC1556","358-SC1556","2648-SC1556-ND",""
+"U2","1","SC1556","Single Board Computer 2.4GHz 4 Core 2GB/0GB RAM ARM® Cortex®-A76","SC1556","358-SC1556","2648-SC1556-ND",""
 "U6,U7","2","SN74AHCT1G125DBVR","Single 4.5-V to 5.5-V buffer with TTL-compatible CMOS inputs and 3-state outputs","SN74AHCT1G125DBVR","595-SNAHCT1G125DBVR","296-4708-2-ND","C7484"
 "Q1,Q4","2","AO3401A","-4.0A Id, -30V Vds, P-Channel MOSFET, SOT-23","AO3401A","","785-1001-2-ND","C15127"
 "FB1","1","BLM18AG601SN1D","Ferrite Beads 600 OHM 25% Alternate Sizing Guide Below","BLM18AG601SN1D","81-BLM11A601S","490-1014-2-ND","C19330"
