@@ -1,0 +1,4 @@
+(fp_lib_table
+	(version 7)
+	(lib (name "nielo") (type "KiCad") (uri "${KIPRJMOD}/libs/footprint/nielo.pretty") (options "") (descr ""))
+)

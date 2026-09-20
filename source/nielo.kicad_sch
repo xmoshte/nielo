@@ -1,0 +1,238 @@
+(kicad_sch
+	(version 20260306)
+	(generator "eeschema")
+	(generator_version "10.0")
+	(uuid "bb2aeb30-9998-41df-9155-afe141bec7cf")
+	(paper "A4")
+	(title_block
+		(title "overview")
+		(date "2026-09-20")
+	)
+	(lib_symbols)
+	(bus
+		(pts
+			(xy 129.54 71.12) (xy 153.67 71.12)
+		)
+		(stroke
+			(width 0.508)
+			(type default)
+			(color 0 0 0 1)
+		)
+		(uuid "50333769-0a97-47f6-994a-4c00915fefdd")
+	)
+	(bus
+		(pts
+			(xy 129.54 93.98) (xy 153.67 93.98)
+		)
+		(stroke
+			(width 0.508)
+			(type default)
+			(color 0 0 0 1)
+		)
+		(uuid "5843befe-110c-4bfb-b472-cf75bc455a95")
+	)
+	(bus
+		(pts
+			(xy 129.54 77.47) (xy 153.67 77.47)
+		)
+		(stroke
+			(width 0.508)
+			(type default)
+			(color 0 0 0 1)
+		)
+		(uuid "636e82a8-2474-4891-b9fc-2dda703fe2b8")
+	)
+	(bus
+		(pts
+			(xy 129.54 85.09) (xy 153.67 85.09)
+		)
+		(stroke
+			(width 0.508)
+			(type default)
+			(color 0 0 0 1)
+		)
+		(uuid "cca0d41d-79f7-40a3-8e11-05832e9a6928")
+	)
+	(sheet
+		(at 153.67 54.61)
+		(size 87.63 57.15)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.254)
+			(type solid)
+		)
+		(fill
+			(color 213 233 255 1)
+		)
+		(uuid "6b6e6333-850f-49d2-9cd3-0b2d9fb1463c")
+		(property "Sheetname" "peripherals"
+			(at 153.67 53.4666 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 2.032 2.032)
+					(thickness 0.4064)
+					(bold yes)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "peripherals.kicad_sch"
+			(at 153.67 112.3954 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "fan" passive
+			(at 153.67 71.12 180)
+			(uuid "cd76337b-60bb-4559-b067-38f21fb47744")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "i2c_dbg" passive
+			(at 153.67 77.47 180)
+			(uuid "975216be-ff8c-4457-9161-eaccba3a4104")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "led" passive
+			(at 153.67 85.09 180)
+			(uuid "fa7ee3eb-8379-4a34-ab38-a4d519b9b635")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "uart_dbg" passive
+			(at 153.67 93.98 180)
+			(uuid "2f4eea3f-6a2f-4fcb-9db8-840eba6c8e10")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "nielo"
+				(path "/bb2aeb30-9998-41df-9155-afe141bec7cf"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 53.34 54.61)
+		(size 76.2 57.15)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.254)
+			(type solid)
+		)
+		(fill
+			(color 213 233 255 1)
+		)
+		(uuid "d3daa6c9-a277-45a1-8266-e2c0090a9ecb")
+		(property "Sheetname" "usbpowerios"
+			(at 53.34 53.4666 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 2.032 2.032)
+					(thickness 0.4064)
+					(bold yes)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "usb&power.kicad_sch"
+			(at 53.34 112.3954 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "fan" passive
+			(at 129.54 71.12 0)
+			(uuid "f389af8a-c531-4304-88db-d7c8a11bb8c0")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "i2c_dbg" passive
+			(at 129.54 77.47 0)
+			(uuid "5bbef9aa-639c-4498-8d7d-858108fea34c")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "led" passive
+			(at 129.54 85.09 0)
+			(uuid "e5e2cffa-6663-4ef7-a470-807f74a7a1b0")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "uart_dbg" passive
+			(at 129.54 93.98 0)
+			(uuid "1465044e-a0ff-4bf7-9a85-ad48e2c814a3")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "nielo"
+				(path "/bb2aeb30-9998-41df-9155-afe141bec7cf"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
+)

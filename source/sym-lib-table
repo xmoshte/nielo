@@ -1,0 +1,4 @@
+(sym_lib_table
+	(version 7)
+	(lib (name "nielo") (type "KiCad") (uri "${KIPRJMOD}/libs/symbols/nielo.kicad_sym") (options "") (descr ""))
+)
