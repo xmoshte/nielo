@@ -1895,6 +1895,129 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "nielo:MountingHole_Pad"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom no)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "H"
+				(at 0 6.35 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "MountingHole_Pad"
+				(at 0 4.445 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "nielo:MountingHole_3.2mm_M3_Pad_Via"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Mounting Hole with connection"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "mounting hole"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "MountingHole*Pad*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "MountingHole_Pad_0_1"
+				(circle
+					(center 0 1.27)
+					(radius 1.27)
+					(stroke
+						(width 1.27)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "MountingHole_Pad_1_1"
+				(pin input line
+					(at 0 -2.54 90)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "nielo:PESD5V5C1BLYL"
 			(pin_names
 				(hide yes)
@@ -11255,6 +11378,16 @@
 	)
 	(wire
 		(pts
+			(xy 430.53 325.12) (xy 430.53 330.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2c9dab90-8f23-414e-9e08-8783b7d0dc3a")
+	)
+	(wire
+		(pts
 			(xy 138.43 289.56) (xy 151.13 289.56)
 		)
 		(stroke
@@ -11502,6 +11635,16 @@
 			(type default)
 		)
 		(uuid "4823826d-51e7-4a04-b47d-421dcf73c094")
+	)
+	(wire
+		(pts
+			(xy 467.36 325.12) (xy 467.36 330.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "482b217a-bb77-4815-8d1e-a117cfc13abf")
 	)
 	(bus
 		(pts
@@ -11852,6 +11995,16 @@
 			(type default)
 		)
 		(uuid "693be70d-cf54-4ecd-971c-a5072f7b2ec9")
+	)
+	(wire
+		(pts
+			(xy 542.29 325.12) (xy 542.29 330.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "69649f5b-cbcf-4c64-8934-c14849a860b3")
 	)
 	(wire
 		(pts
@@ -12652,6 +12805,16 @@
 			(type default)
 		)
 		(uuid "b25c8bc6-66da-405d-ba45-8c3e10e1a6c3")
+	)
+	(wire
+		(pts
+			(xy 501.65 325.12) (xy 501.65 330.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b4e1512b-a3f2-447a-bfd9-37cf1d4b7f66")
 	)
 	(wire
 		(pts
@@ -13623,7 +13786,7 @@
 		)
 		(uuid "13b3ae34-38e4-495f-bfb6-df48832325a0")
 	)
-	(label "_usb_ss-p"
+	(label "_usb_ss+"
 		(at 30.48 289.56 0)
 		(effects
 			(font
@@ -13643,7 +13806,7 @@
 		)
 		(uuid "154af763-c969-47b6-9a9a-8b6e0bba8234")
 	)
-	(label "_usb_ss-p"
+	(label "_usb_ss+"
 		(at 106.68 295.91 0)
 		(effects
 			(font
@@ -13713,7 +13876,7 @@
 		)
 		(uuid "1f525dfb-2411-4469-a08a-17c53c344bb3")
 	)
-	(label "_usb_ss-p"
+	(label "_usb_ss+"
 		(at 88.9 227.33 180)
 		(effects
 			(font
@@ -13833,7 +13996,7 @@
 		)
 		(uuid "374bb40f-aefd-4a7c-bd25-f29e0c7897ac")
 	)
-	(label "usb_hs-p"
+	(label "usb_hs+"
 		(at 151.13 162.56 180)
 		(effects
 			(font
@@ -13853,7 +14016,7 @@
 		)
 		(uuid "3ac830af-33b2-4ab1-bada-2e204e374734")
 	)
-	(label "_usb_hs-p"
+	(label "_usb_hs+"
 		(at 106.68 162.56 0)
 		(effects
 			(font
@@ -13863,7 +14026,7 @@
 		)
 		(uuid "3c93939f-95a9-40e8-93b0-fc63ef0e4f77")
 	)
-	(label "_usb_ss-n"
+	(label "_usb_ss-"
 		(at 88.9 222.25 180)
 		(effects
 			(font
@@ -13983,7 +14146,7 @@
 		)
 		(uuid "60c990e6-2238-4da8-baae-cdc95f94d0e1")
 	)
-	(label "_usb_hs-n"
+	(label "_usb_hs-"
 		(at 106.68 156.21 0)
 		(effects
 			(font
@@ -14003,7 +14166,7 @@
 		)
 		(uuid "647c25de-403f-4a5f-927d-f3f08010c451")
 	)
-	(label "_usb_hs-p"
+	(label "_usb_hs+"
 		(at 31.75 156.21 0)
 		(effects
 			(font
@@ -14083,7 +14246,7 @@
 		)
 		(uuid "7c0e53cf-1623-4217-bca7-becd968e161b")
 	)
-	(label "_usb_hs-n"
+	(label "_usb_hs-"
 		(at 91.44 156.21 180)
 		(effects
 			(font
@@ -14113,7 +14276,7 @@
 		)
 		(uuid "846ccea8-fb4e-4210-806d-4b4ee67088ee")
 	)
-	(label "_usb_hs-n"
+	(label "_usb_hs-"
 		(at 88.9 78.74 180)
 		(effects
 			(font
@@ -14223,7 +14386,7 @@
 		)
 		(uuid "a92e9ff7-e05a-4351-80fe-c10de241ebe2")
 	)
-	(label "_usb_ss-n"
+	(label "_usb_ss-"
 		(at 93.98 289.56 180)
 		(effects
 			(font
@@ -14233,7 +14396,7 @@
 		)
 		(uuid "ab1ae6ad-1d17-458b-9e77-9a8e394cb05d")
 	)
-	(label "_usb_hs-p"
+	(label "_usb_hs+"
 		(at 88.9 83.82 180)
 		(effects
 			(font
@@ -14253,7 +14416,7 @@
 		)
 		(uuid "aff60eba-e651-4721-9672-36952670d7b2")
 	)
-	(label "usb_hs-p"
+	(label "usb_hs+"
 		(at 215.9 137.16 0)
 		(effects
 			(font
@@ -14343,7 +14506,7 @@
 		)
 		(uuid "bdb67e37-ecc7-48fe-98ca-9ddfab84e893")
 	)
-	(label "_usb_ss-n"
+	(label "_usb_ss-"
 		(at 106.68 289.56 0)
 		(effects
 			(font
@@ -14373,7 +14536,7 @@
 		)
 		(uuid "ca2af5e7-1588-4f4b-8c62-ff3236423b18")
 	)
-	(label "usb_ss-n"
+	(label "usb_ss-"
 		(at 151.13 289.56 180)
 		(effects
 			(font
@@ -14383,7 +14546,7 @@
 		)
 		(uuid "cedb3a60-a163-427b-92ac-81083ccab71a")
 	)
-	(label "usb_ss-p"
+	(label "usb_ss+"
 		(at 215.9 203.2 0)
 		(effects
 			(font
@@ -14413,7 +14576,7 @@
 		)
 		(uuid "d78156f0-bb0a-4bac-b557-fad678714070")
 	)
-	(label "usb_hs-n"
+	(label "usb_hs-"
 		(at 215.9 139.7 0)
 		(effects
 			(font
@@ -14463,7 +14626,7 @@
 		)
 		(uuid "e0c83e5a-855f-442f-b7e0-0fb72f59891a")
 	)
-	(label "usb_hs-n"
+	(label "usb_hs-"
 		(at 151.13 156.21 180)
 		(effects
 			(font
@@ -14473,7 +14636,7 @@
 		)
 		(uuid "e38c6640-8021-408c-b4a2-da4dbe8e8096")
 	)
-	(label "usb_ss-n"
+	(label "usb_ss-"
 		(at 215.9 200.66 0)
 		(effects
 			(font
@@ -14543,7 +14706,7 @@
 		)
 		(uuid "f7d690b1-1f5e-4ac1-b32e-082cb20be05e")
 	)
-	(label "usb_ss-p"
+	(label "usb_ss+"
 		(at 151.13 295.91 180)
 		(effects
 			(font
@@ -18815,6 +18978,84 @@
 		)
 	)
 	(symbol
+		(lib_id "nielo:MountingHole_Pad")
+		(at 430.53 322.58 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "458e365a-dd46-4274-94e1-43bce42c5d44")
+		(property "Reference" "H1"
+			(at 429.26 317.5 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole_Pad"
+			(at 433.07 322.5799 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "nielo:MountingHole_3.2mm_M3_Pad_Via"
+			(at 430.53 322.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 430.53 322.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Mounting Hole with connection"
+			(at 430.53 322.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "56006e57-bc80-49e3-b8ed-9270704dbc19")
+		)
+		(instances
+			(project "nielo"
+				(path "/bb2aeb30-9998-41df-9155-afe141bec7cf/d3daa6c9-a277-45a1-8266-e2c0090a9ecb"
+					(reference "H1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:PWR_FLAG")
 		(at 613.41 124.46 0)
 		(unit 1)
@@ -19143,6 +19384,85 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 542.29 330.2 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4d6b06ff-d9d7-4d12-966d-9cfb09c44713")
+		(property "Reference" "#PWR094"
+			(at 542.29 336.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 542.29 335.28 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 542.29 330.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 542.29 330.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 542.29 330.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "66e952cb-616a-4d47-9b74-166d8d91cdff")
+		)
+		(instances
+			(project "nielo"
+				(path "/bb2aeb30-9998-41df-9155-afe141bec7cf/d3daa6c9-a277-45a1-8266-e2c0090a9ecb"
+					(reference "#PWR094")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "nielo:BS-07-A1BJ001")
 		(at 214.63 303.53 0)
 		(unit 1)
@@ -19341,6 +19661,84 @@
 			(project "nielo"
 				(path "/bb2aeb30-9998-41df-9155-afe141bec7cf/d3daa6c9-a277-45a1-8266-e2c0090a9ecb"
 					(reference "#PWR07")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "nielo:MountingHole_Pad")
+		(at 467.36 322.58 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "4f4a3df1-8919-4812-aef6-f241a68bf84e")
+		(property "Reference" "H2"
+			(at 466.09 317.5 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole_Pad"
+			(at 469.9 322.5799 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "nielo:MountingHole_3.2mm_M3_Pad_Via"
+			(at 467.36 322.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 467.36 322.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Mounting Hole with connection"
+			(at 467.36 322.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "269bb1a0-5f0a-409d-a111-3e160951c5b2")
+		)
+		(instances
+			(project "nielo"
+				(path "/bb2aeb30-9998-41df-9155-afe141bec7cf/d3daa6c9-a277-45a1-8266-e2c0090a9ecb"
+					(reference "H2")
 					(unit 1)
 				)
 			)
@@ -19629,6 +20027,85 @@
 			(project "nielo"
 				(path "/bb2aeb30-9998-41df-9155-afe141bec7cf/d3daa6c9-a277-45a1-8266-e2c0090a9ecb"
 					(reference "D3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 430.53 330.2 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "57cc8181-900a-4397-a876-913e8ac9ff75")
+		(property "Reference" "#PWR091"
+			(at 430.53 336.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 430.53 335.28 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 430.53 330.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 430.53 330.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 430.53 330.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "f7c2d458-5bc5-4219-8a76-be4cdf63b467")
+		)
+		(instances
+			(project "nielo"
+				(path "/bb2aeb30-9998-41df-9155-afe141bec7cf/d3daa6c9-a277-45a1-8266-e2c0090a9ecb"
+					(reference "#PWR091")
 					(unit 1)
 				)
 			)
@@ -20774,6 +21251,84 @@
 		)
 	)
 	(symbol
+		(lib_id "nielo:MountingHole_Pad")
+		(at 542.29 322.58 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "67927e3e-97f4-4a35-8cbc-7b8572910cf8")
+		(property "Reference" "H4"
+			(at 541.02 317.5 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole_Pad"
+			(at 544.83 322.5799 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "nielo:MountingHole_3.2mm_M3_Pad_Via"
+			(at 542.29 322.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 542.29 322.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Mounting Hole with connection"
+			(at 542.29 322.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "b32062d4-48ec-4d8f-99bb-b0637274afbd")
+		)
+		(instances
+			(project "nielo"
+				(path "/bb2aeb30-9998-41df-9155-afe141bec7cf/d3daa6c9-a277-45a1-8266-e2c0090a9ecb"
+					(reference "H4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 410.21 264.16 270)
 		(unit 1)
@@ -21003,6 +21558,85 @@
 			(project "nielo"
 				(path "/bb2aeb30-9998-41df-9155-afe141bec7cf/d3daa6c9-a277-45a1-8266-e2c0090a9ecb"
 					(reference "#PWR084")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 467.36 330.2 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "70a2debc-d759-4bda-bc38-6d6f41e6c27d")
+		(property "Reference" "#PWR092"
+			(at 467.36 336.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 467.36 335.28 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 467.36 330.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 467.36 330.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 467.36 330.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "fe63d94d-fc57-4330-9655-d39a0280f161")
+		)
+		(instances
+			(project "nielo"
+				(path "/bb2aeb30-9998-41df-9155-afe141bec7cf/d3daa6c9-a277-45a1-8266-e2c0090a9ecb"
+					(reference "#PWR092")
 					(unit 1)
 				)
 			)
@@ -23226,6 +23860,84 @@
 			(project "nielo"
 				(path "/bb2aeb30-9998-41df-9155-afe141bec7cf/d3daa6c9-a277-45a1-8266-e2c0090a9ecb"
 					(reference "#PWR031")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "nielo:MountingHole_Pad")
+		(at 501.65 322.58 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "b28d919a-b3af-4bd5-b384-77099668281d")
+		(property "Reference" "H3"
+			(at 500.38 317.5 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole_Pad"
+			(at 504.19 322.5799 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "nielo:MountingHole_3.2mm_M3_Pad_Via"
+			(at 501.65 322.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 501.65 322.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Mounting Hole with connection"
+			(at 501.65 322.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "e46d67b0-f0c9-45aa-a0cb-32c3ef86bba9")
+		)
+		(instances
+			(project "nielo"
+				(path "/bb2aeb30-9998-41df-9155-afe141bec7cf/d3daa6c9-a277-45a1-8266-e2c0090a9ecb"
+					(reference "H3")
 					(unit 1)
 				)
 			)
@@ -26123,6 +26835,85 @@
 			(project "nielo"
 				(path "/bb2aeb30-9998-41df-9155-afe141bec7cf/d3daa6c9-a277-45a1-8266-e2c0090a9ecb"
 					(reference "SW1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 501.65 330.2 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e5c19564-0b05-466b-8fc2-796bbdfe9d5c")
+		(property "Reference" "#PWR093"
+			(at 501.65 336.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 501.65 335.28 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 501.65 330.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 501.65 330.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 501.65 330.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "a155cb40-dac0-49cd-a426-5a24e68489f8")
+		)
+		(instances
+			(project "nielo"
+				(path "/bb2aeb30-9998-41df-9155-afe141bec7cf/d3daa6c9-a277-45a1-8266-e2c0090a9ecb"
+					(reference "#PWR093")
 					(unit 1)
 				)
 			)
