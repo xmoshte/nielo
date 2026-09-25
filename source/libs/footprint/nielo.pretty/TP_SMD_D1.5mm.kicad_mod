@@ -6,7 +6,7 @@
 	(property "Reference" "REF**"
 		(at 0 -1.7 0)
 		(layer "F.SilkS")
-		(uuid "d13eff1f-3120-41ba-a50e-c3d97538a5e7")
+		(uuid "77ccad65-c752-4f11-85e8-9d571716a3b8")
 		(effects
 			(font
 				(size 1 1)
@@ -17,7 +17,7 @@
 	(property "Value" "TP_SMD_D1.5mm"
 		(at 0 1.7 0)
 		(layer "F.Fab")
-		(uuid "b11fc422-6585-4f0f-bec0-a9093d2a9da0")
+		(uuid "846a00bb-4f11-4a0a-890e-d7d7edd02f80")
 		(effects
 			(font
 				(size 1 1)
@@ -29,7 +29,7 @@
 		(at 0 0 0)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "ecec373f-842f-41f5-b9b3-a85c48b9ee5f")
+		(uuid "731a84e2-bd30-4469-9370-40da9a86dd38")
 		(effects
 			(font
 				(size 1 1)
@@ -41,7 +41,7 @@
 		(at 0 0 0)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "ac516ff5-8b2a-482f-ad8e-ac8aef321d8d")
+		(uuid "1b2a7643-b71d-4ec9-823d-a5655c70cf51")
 		(effects
 			(font
 				(size 1 1)
@@ -49,6 +49,10 @@
 			)
 		)
 	)
+	(solder_mask_margin 0)
+	(solder_paste_margin 0)
+	(clearance 0)
+	(attr allow_soldermask_bridges)
 	(duplicate_pad_numbers_are_jumpers no)
 	(fp_circle
 		(center 0 0)
@@ -59,7 +63,7 @@
 		)
 		(fill no)
 		(layer "User.7")
-		(uuid "f412eadb-9415-4898-a450-4fe6c876bb60")
+		(uuid "6748acf6-0fc7-4809-b62f-665528417e71")
 	)
 	(fp_circle
 		(center 0 0)
@@ -70,13 +74,13 @@
 		)
 		(fill no)
 		(layer "User.7")
-		(uuid "b2bdf8bf-feb7-4f37-b4a5-021f12f7fa9a")
+		(uuid "c422f729-e769-4fe5-ab2e-a1a4a9ab58e8")
 	)
 	(fp_text user "${REFERENCE}"
 		(at -0.9 -1.128327 0)
 		(unlocked yes)
 		(layer "User.7")
-		(uuid "be2d4238-2227-4d0f-85d8-5b70c6d66a37")
+		(uuid "14b98156-5ee0-41c6-8f16-3255381b29b7")
 		(effects
 			(font
 				(size 0.381 0.381)
@@ -91,7 +95,7 @@
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(solder_paste_margin -5)
 		(thermal_bridge_angle 90)
-		(uuid "0bd34491-9eec-4ea3-b48b-2fd36d3d8d85")
+		(uuid "765a2b92-d378-41dc-a3dc-686b19ec89ca")
 	)
 	(embedded_fonts no)
 )

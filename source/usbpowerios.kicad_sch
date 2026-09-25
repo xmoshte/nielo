@@ -1928,7 +1928,7 @@
 					)
 				)
 			)
-			(property "Footprint" "nielo:MountingHole_3.2mm_M3_Pad_Via"
+			(property "Footprint" "nielo:MountingHole_2.2mm_M2_Pad_Via"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -19010,7 +19010,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "nielo:MountingHole_3.2mm_M3_Pad_Via"
+		(property "Footprint" "nielo:MountingHole_2.2mm_M2_Pad_Via"
 			(at 430.53 322.58 0)
 			(hide yes)
 			(show_name no)
@@ -19699,7 +19699,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "nielo:MountingHole_3.2mm_M3_Pad_Via"
+		(property "Footprint" "nielo:MountingHole_2.2mm_M2_Pad_Via"
 			(at 467.36 322.58 0)
 			(hide yes)
 			(show_name no)
@@ -21283,7 +21283,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "nielo:MountingHole_3.2mm_M3_Pad_Via"
+		(property "Footprint" "nielo:MountingHole_2.2mm_M2_Pad_Via"
 			(at 542.29 322.58 0)
 			(hide yes)
 			(show_name no)
@@ -21430,14 +21430,15 @@
 				)
 			)
 		)
-		(property "Value" "VBUS_HS"
-			(at 62.23 273.05 0)
+		(property "Value" "VBUS_SS"
+			(at 64.77 276.8599 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" ""
@@ -23898,7 +23899,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "nielo:MountingHole_3.2mm_M3_Pad_Via"
+		(property "Footprint" "nielo:MountingHole_2.2mm_M2_Pad_Via"
 			(at 501.65 322.58 0)
 			(hide yes)
 			(show_name no)

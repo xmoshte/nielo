@@ -2977,12 +2977,6 @@
 		(uuid "831ec0af-be97-4a16-87cd-db5e08716ebe")
 	)
 	(junction
-		(at 254 300.99)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "86759ad3-dc4f-469f-87f4-4806dd189889")
-	)
-	(junction
 		(at 275.59 205.74)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3252,6 +3246,16 @@
 	)
 	(wire
 		(pts
+			(xy 254 298.45) (xy 254 322.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0fafaef9-6626-4d47-9647-f77171a23a79")
+	)
+	(wire
+		(pts
 			(xy 284.48 281.94) (xy 284.48 295.91)
 		)
 		(stroke
@@ -3392,7 +3396,7 @@
 	)
 	(wire
 		(pts
-			(xy 254 300.99) (xy 287.02 300.99)
+			(xy 243.84 300.99) (xy 287.02 300.99)
 		)
 		(stroke
 			(width 0)
@@ -3522,16 +3526,6 @@
 	)
 	(wire
 		(pts
-			(xy 243.84 300.99) (xy 254 300.99)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3ccd9e5a-2f97-48fd-ab86-38b79db58850")
-	)
-	(wire
-		(pts
 			(xy 185.42 74.93) (xy 201.93 74.93)
 		)
 		(stroke
@@ -3599,16 +3593,6 @@
 			(type default)
 		)
 		(uuid "44808f0d-787d-40af-8a58-18bec6900de6")
-	)
-	(wire
-		(pts
-			(xy 254 300.99) (xy 254 322.58)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4909072c-db69-4837-8b13-f216b48b9c09")
 	)
 	(wire
 		(pts
@@ -5334,7 +5318,6 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "0720a835-89d2-4a69-9743-14fc35444d38")
 		(property "Reference" "#PWR077"
 			(at 104.14 271.78 0)
@@ -5347,14 +5330,15 @@
 				)
 			)
 		)
-		(property "Value" "+3V3_i2c"
-			(at 104.14 262.89 0)
+		(property "Value" "+3V3_uart"
+			(at 98.298 263.652 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" ""
