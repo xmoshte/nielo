@@ -20684,7 +20684,7 @@
 	)
 	(symbol
 		(lib_id "nielo:SC1752")
-		(at 556.26 184.15 0)
+		(at 556.26 109.22 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -20694,31 +20694,31 @@
 		(dnp no)
 		(uuid "24e09667-872f-42b8-b539-37d70be1630a")
 		(property "Reference" "HS1"
-			(at 553.72 177.038 0)
+			(at 553.72 102.108 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.778 1.778)
-					(color 255 77 92 1)
+					(color 0 0 0 1)
 				)
 				(justify left)
 			)
 		)
 		(property "Value" "SC1752"
-			(at 551.688 187.452 0)
+			(at 551.688 112.522 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.778 1.778)
-					(color 255 77 92 1)
+					(color 0 0 0 1)
 				)
 				(justify left)
 			)
 		)
 		(property "Footprint" ""
-			(at 556.5648 184.15 0)
+			(at 556.5648 109.22 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20729,7 +20729,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 556.5648 184.15 0)
+			(at 556.5648 109.22 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20740,7 +20740,7 @@
 			)
 		)
 		(property "Description" "Heat Sink Raspberry Pi 5 Aluminum Top Mount"
-			(at 556.26 184.15 0)
+			(at 556.26 109.22 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20751,7 +20751,7 @@
 			)
 		)
 		(property "MPN" "SC1752"
-			(at 556.26 184.15 0)
+			(at 556.26 109.22 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20762,7 +20762,7 @@
 			)
 		)
 		(property "Mouser No" "358-SC1752"
-			(at 556.26 184.15 0)
+			(at 556.26 109.22 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20773,7 +20773,7 @@
 			)
 		)
 		(property "DigiKey No" "2648-SC1752-ND"
-			(at 556.26 184.15 0)
+			(at 556.26 109.22 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20784,7 +20784,7 @@
 			)
 		)
 		(property "LCSC No" ""
-			(at 556.26 184.15 0)
+			(at 556.26 109.22 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -29871,7 +29871,7 @@
 				)
 			)
 		)
-		(property "Value" "10k"
+		(property "Value" "12k"
 			(at 98.044 245.11 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -29903,7 +29903,7 @@
 				)
 			)
 		)
-		(property "Description" "10k Resistor Ceramic 0402"
+		(property "Description" "12k Resistor Ceramic 0402"
 			(at 92.71 242.57 0)
 			(hide yes)
 			(show_name no)
@@ -29926,7 +29926,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "LCSC No" "C2073498"
+		(property "LCSC No" "C2085429"
 			(at 87.122 251.206 0)
 			(hide yes)
 			(show_name no)
@@ -29938,7 +29938,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "DigiKey No" "749-MCS0402MD1002BE500TR-ND"
+		(property "DigiKey No" "CR0402-FX-1202GLFTR-ND"
 			(at 87.122 248.666 0)
 			(hide yes)
 			(show_name no)
@@ -29950,7 +29950,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Mouser No" "594-MCS0402MD1002BE5"
+		(property "Mouser No" "652-CR0402FX-1202GLF"
 			(at 87.122 248.666 0)
 			(hide yes)
 			(show_name no)
@@ -29962,7 +29962,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "MPN" "MCS0402MD1002BE500"
+		(property "MPN" "CR0402-FX-1202GLF"
 			(at 87.122 248.666 0)
 			(hide yes)
 			(show_name no)
@@ -31819,7 +31819,7 @@
 				)
 			)
 		)
-		(property "Value" "10k"
+		(property "Value" "12k"
 			(at 97.79 237.236 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -31851,7 +31851,7 @@
 				)
 			)
 		)
-		(property "Description" "10k Resistor Ceramic 0402"
+		(property "Description" "12k Resistor Ceramic 0402"
 			(at 92.71 240.03 0)
 			(hide yes)
 			(show_name no)
@@ -31874,7 +31874,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "LCSC No" "C2073498"
+		(property "LCSC No" "C2085429"
 			(at 87.122 248.666 0)
 			(hide yes)
 			(show_name no)
@@ -31886,7 +31886,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "DigiKey No" "749-MCS0402MD1002BE500TR-ND"
+		(property "DigiKey No" "CR0402-FX-1202GLFTR-ND"
 			(at 87.122 246.126 0)
 			(hide yes)
 			(show_name no)
@@ -31898,7 +31898,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Mouser No" "594-MCS0402MD1002BE5"
+		(property "Mouser No" "652-CR0402FX-1202GLF"
 			(at 87.122 246.126 0)
 			(hide yes)
 			(show_name no)
@@ -31910,7 +31910,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "MPN" "MCS0402MD1002BE500"
+		(property "MPN" "CR0402-FX-1202GLF"
 			(at 87.122 246.126 0)
 			(hide yes)
 			(show_name no)
