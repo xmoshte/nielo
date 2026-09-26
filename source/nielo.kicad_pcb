@@ -151,7 +151,7 @@
 			(svgprecision 4)
 			(plotframeref no)
 			(mode 1)
-			(useauxorigin no)
+			(useauxorigin yes)
 			(pdf_front_fp_property_popups yes)
 			(pdf_back_fp_property_popups yes)
 			(pdf_metadata yes)
