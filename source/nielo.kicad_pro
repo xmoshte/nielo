@@ -641,9 +641,9 @@
     "last_paths": {
       "idf": "",
       "netlist": "",
-      "plot": "",
+      "plot": "production/gerber/",
       "specctra_dsn": "",
-      "step": "",
+      "step": "../docs/pics&3d/nielo.step",
       "vrml": ""
     },
     "page_layout_descr_file": ""
@@ -820,7 +820,7 @@
         "uuid": "bb2aeb30-9998-41df-9155-afe141bec7cf"
       }
     ],
-    "used_designators": "#FLG1-8,R1-25,B1-5,J1-8,D1-6,#PWR1-94,TP1-14,FB1-2,C1-18,U1-7,SW1-3,SB1-2,Q1-4,BT1,HS1-2,H1-4",
+    "used_designators": "#FLG1-8,R1-25,B1-5,J1-9,D1-6,#PWR1-94,TP1-14,FB1-2,C1-18,U1-7,SW1-3,SB1-2,Q1-4,BT1,HS1-2,H1-4",
     "variants": []
   },
   "sheets": [
